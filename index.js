@@ -1,11 +1,8 @@
 const secret = 'ultrasecurekey';
 
-const DRAMA_MPD = 'EHMNS1hAfxU3M2RBBwszX1AxVQBTQxUOMiBjXQoNMRQdeB4cUkMlGTNlNlQRGjwHF30LRlEKJQl2eTpPTgE/HAE4ChwJQx4nGmNhVQoZIQdNOApU';
-const DRAMA_KID  = 'XG8cU1Ncfhk4ZXcFAVowFFduQAUBCHdKbm99BwAIZ0I=';
-const DRAMA_KEY  = 'VWZMVVdVIk9rYnkCUVlgQwFiQVUFCSAePDIsV1BbbkQ=';
-const ACTION_MPD = 'DCMMQFlCaRU3M2NUBwozXwUzVQFTQywTLidjXQoDMxMWeh0dU0MlHjR5N1QQHToHF3kMRkwJJwkyejlHTAE/HAE2Ch0GQh8pG2VhVwofJQZKOghU';
-const ACTION_KID = 'XTFLCAVedEtjZ3oCUAtuFAAyS1ECDHRIOGYqBwBbZ0I=';
-const ACTION_KEY = 'VGQcAQBbJ05sM3hUVw9hFwY0SFFWCHRMazF+BVZeYEA=';
+const DRAMA_MPD  = 'EHMNS1hAfxU3M2RBBwszX1AxVQBTQxUOMiBjXQoNMRQdeB4cUkMlGTNlNlQRGjwHF30LRlEKJQl2eTpPTgE/HAE4ChwJQx4nGmNhVQoZIQdNOApU';
+const DRAMA_KID  = 'XG8cU1Ncfhk4ZXcFAVowFFduQAUBCHdKbm99BwAIZ0I='; // no need to change unless you change KeyID
+const DRAMA_KEY  = 'VWZMVVdVIk9rYnkCUVlgQwFiQVUFCSAePDIsV1BbbkQ='; // no need to change unless you change Key
 
 document.addEventListener('DOMContentLoaded', () => {
   document.getElementById('drama')
